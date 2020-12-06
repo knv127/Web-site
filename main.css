@@ -1,0 +1,137 @@
+
+body{
+    line-height:1.7;
+    color: rgba(0,0,0,0.5);
+    font-weight:400;
+    font-size: 1rem;
+}
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+    color: #000; }
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+#wrap{
+    width:1100px;
+    margin:0 auto;
+}
+.info{
+    border-bottom: 1px solid grey;
+    text-align: right;
+}
+.logo{
+    text-align: center;
+    float: center;
+    padding-left: 35px; 
+}
+form{
+    float: right;
+    margin-bottom: 13px;
+}
+.category{
+    height:30px;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header ul{
+    margin-bottom: 0;
+    padding-inline-start: 0px;
+    list-style: none; 
+}
+header li{
+    display: inline;
+}
+header a{
+    color:rgb(63, 63, 63);
+}
+header a:hover{
+    color: rgb(223, 200, 0);
+}
+nav ul{
+    margin-bottom: 0;
+    padding-inline-start: 0px;
+    list-style: none; 
+}
+nav li{
+    display: inline;
+    text-align: center;
+} 
+nav a{
+    color:#ffffff;
+    padding:40px;
+}
+nav a:hover{
+    color: rgb(158, 158, 158);
+}
+.slide{
+    text-align: center;
+    padding-bottom: 10px;
+}
+h2,h5,h3{
+    text-align: center;
+}
+.example img {
+    width: 250px; 
+    height: 250px;
+    padding-right: 33px;
+    padding-left: 33px;
+ }
+.example img:hover{
+     opacity: 0.65;
+ }
+.example{
+    float: left;
+    padding: 25px;
+    text-align: center;
+}
+footer{
+    margin-top: 100px;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: center;
+}
+.example p{
+    margin-top: -10px;
+}
+@media screen and (max-width: 700px){
+    #wrap{
+        max-width: 700px;
+    }
+    body{
+        background-color: rgb(255, 255, 250);
+        margin:0;
+        padding:0;
+    }
+    .info{
+        text-align: center;
+    } 
+    .category{
+        width: 700px;
+    }
+    .category a{
+        padding: 20px;
+    }
+    .example {
+        padding: 10px;
+    }
+    h2{
+        color: rgb(190, 166, 55);
+    }
+    form{
+        float: left;
+        padding-left: 250px;
+    }
+    .logo{
+        padding-left: 0;
+    }
+
+}
